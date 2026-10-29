@@ -1,0 +1,27 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add Nordwetter",
+        "description": "Enter the city or place to retrieve weather data for.",
+        "data": {
+          "location": "Location"
+        },
+        "data_description": {
+          "location": "A city or place name understood by wttr.in."
+        }
+      }
+    },
+    "error": {
+      "empty_location": "Enter a location.",
+      "invalid_location": "Enter a valid location without control characters.",
+      "location_too_long": "The location is too long.",
+      "cannot_connect": "Could not connect to wttr.in.",
+      "invalid_response": "wttr.in returned incomplete or invalid weather data.",
+      "unknown": "An unexpected error occurred."
+    },
+    "abort": {
+      "already_configured": "This location is already configured."
+    }
+  }
+}

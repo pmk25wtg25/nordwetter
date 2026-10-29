@@ -1,0 +1,12 @@
+{
+  "domain": "nordwetter",
+  "name": "Nordwetter",
+  "codeowners": ["@pmk25wtg25"],
+  "config_flow": true,
+  "documentation": "https://github.com/pmk25wtg25/Wettervorhersage-Webapp/blob/feature/homeAssistant/custom_components/nordwetter/README.md",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/pmk25wtg25/Wettervorhersage-Webapp/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

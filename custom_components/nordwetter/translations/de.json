@@ -1,0 +1,27 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Nordwetter hinzufügen",
+        "description": "Gib die Stadt oder den Ort ein, für den Wetterdaten geladen werden sollen.",
+        "data": {
+          "location": "Ort"
+        },
+        "data_description": {
+          "location": "Ein von wttr.in erkannter Stadt- oder Ortsname."
+        }
+      }
+    },
+    "error": {
+      "empty_location": "Gib einen Ort ein.",
+      "invalid_location": "Gib einen gültigen Ort ohne Steuerzeichen ein.",
+      "location_too_long": "Der Ortsname ist zu lang.",
+      "cannot_connect": "Es konnte keine Verbindung zu wttr.in hergestellt werden.",
+      "invalid_response": "wttr.in hat unvollständige oder ungültige Wetterdaten geliefert.",
+      "unknown": "Ein unerwarteter Fehler ist aufgetreten."
+    },
+    "abort": {
+      "already_configured": "Dieser Ort ist bereits eingerichtet."
+    }
+  }
+}
